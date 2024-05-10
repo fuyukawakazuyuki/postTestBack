@@ -31,6 +31,7 @@ export class PostsService {
         id: id,
       },
     });
+    console.log(findedPost);
     return findedPost;
   }
 
